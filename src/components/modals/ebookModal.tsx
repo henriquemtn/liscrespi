@@ -1,7 +1,5 @@
 import { useState } from "react";
 import Modal from "../Modal";
-import Button from "../Button";
-import { toast } from 'react-hot-toast';
 import { useEbookModal } from "../../hooks/useEbookModal";
 import Minimalismo1 from '../../assets/minimalismo1.png'
 
