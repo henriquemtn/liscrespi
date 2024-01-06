@@ -1,7 +1,5 @@
 import { useState } from "react";
 import Modal from "../Modal";
-import Button from "../Button";
-import { toast } from 'react-hot-toast';
 import { useEbookModal } from "../../hooks/useEbookModal";
 import Minimalismo1 from '../../assets/minimalismo1.png'
 
@@ -9,7 +7,7 @@ const EbookModal = () => {
     const [isLoading] = useState(false);
     const ebookModal = useEbookModal();
 
-    const bodyContent = (
+      const bodyContent = (
         <div className="flex flex-col gap-4">
             <div className="flex flex-col md:flex-row gap-10">
                 <img src={Minimalismo1} className="w-full md:w-1/2" alt="Imagem do ebook" />
