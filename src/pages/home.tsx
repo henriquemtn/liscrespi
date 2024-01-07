@@ -16,40 +16,22 @@ export default function Home() {
             <div className="md:pb-8 md:py-8 w-full items-center justify-center flex">
                 <Banner />
             </div>
-            <TextoSimples 
-            titulo="Você está onde a transformação começa"
-            conteudo="Se você chegou até aqui, provavelmente você está contemplando alguma mudança na 
-            sua vida e está tomando coragem para fazer algo a respeito, ou talvez não saiba muito
-             bem por onde começar. A boa notícia é que você está no lugar certo: a melhor maneira
-             de desenvolver coragem e iniciar sua jornada de transformação é através da psicologia."
-            />
-            <TextoRight
-            imagem={Minimalismo1}
-            titulo="Através da psicoterapia você aprende"
-            conteudo="Regular suas emoções e lidar com a ansiedade
-            Superar traumas e fantasmas do passado
-            Se reconectar com seus propósitos e valores
-            Identificar potenciais e fortalecer o self
-            Lidar com distorções cognitivas e gatilhos sabotadores
-            Criar planos de ação para pequenos e grandes desafios
-            Desenvolver relações mais saudáveis
-            Quebrar padrões comportamentais e reescrever a própria história"
-            />
-            <TextoLeft
-            imagem={Minimalismo2}
-            titulo="Através da psicoterapia você aprende"
-            conteudo="Regular suas emoções e lidar com a ansiedade
-            Superar traumas e fantasmas do passado
-            Se reconectar com seus propósitos e valores
-            Identificar potenciais e fortalecer o self
-            Lidar com distorções cognitivas e gatilhos sabotadores
-            Criar planos de ação para pequenos e grandes desafios
-            Desenvolver relações mais saudáveis
-            Quebrar padrões comportamentais e reescrever a própria história"
+            <TextoSimples
+                titulo="Que bom ter chegado aqui "
+                conteudo="A fala e ação são formas que encontramos para trazer cor e sabor a vida, mesmo na relutância em procurar ajuda, mas com a coragem em mãos, são através delas que podemos encontrar novos caminhos e olhar a existência de outra perspectiva e esse processo não ocorrerá sozinho a psicoterapia se encontra como o principal recurso de auxilio."
             />
             <TextoSobre
-            imagem={LisCrespi}
-            titulo="Através da psicoterapia você aprende"
+                imagem={LisCrespi}
+                titulo="A profissional"
+            />
+            <TextoLeft
+                imagem={Minimalismo1}
+                titulo="A psicoterapia para além do esperado"
+                conteudo="O processo terapêutico não está voltado apenas ao auxilio de pessoas que possuem um diagnostico psiquiátrico, mas engloba aspectos mais profundos sobre o relacionamento com o eu, como; autoconhecimento, compreensão dos sentimentos, pensamentos e comportamentos, elaboração de vivencias difíceis, ajuda no desenvolvimento de relações saudáveis, melhora na autoestima, encontro dos valores pessoais, ressignificação da própria historia."
+            />
+            <TextoRight
+                imagem={Minimalismo2}
+                titulo="Meu desejo como psicóloga"
             />
             <Footer />
         </div>
