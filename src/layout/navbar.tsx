@@ -5,7 +5,7 @@ export default function NavBar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <div id='nav' className='bg-[#FFFDF7]'>
+        <div id='nav' className='bg-white'>
             <div className='flex flex-col sm:flex-row justify-between items-center px-4 py-2 lg:px-0 max-w-[1150px] mx-auto'>
                 <img src={Logo} alt="Logo" className='h-28 mb-4' />
 
