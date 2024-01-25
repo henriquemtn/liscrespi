@@ -2,11 +2,11 @@ import FadeInOnScroll from "../scripts/fadeInOnScroll"
 
 interface CustomProps {
     titulo: string,
-
+    color: string,
     imagem: string,
 }
 
-export default function TextoSobre({ imagem }: CustomProps) {
+export default function TextoSobre({ imagem, color }: CustomProps) {
     return (
         <div className="w-full flex justify-center items-center md:px-8">
             <FadeInOnScroll>
@@ -27,7 +27,7 @@ export default function TextoSobre({ imagem }: CustomProps) {
                             </p>
                         </div>
                     </div>
-                    <div className="w-full h-[1px] bg-[#69825F]" />
+                    <div className={`w-full h-[1px] bg-[${color}]`} />
                 </div>
             </FadeInOnScroll>
         </div >

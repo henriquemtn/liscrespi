@@ -13,9 +13,7 @@ export default function Home() {
     return (
         <div>
             <Navbar />
-            <div className="md:pb-8 md:py-8 w-full items-center justify-center flex">
-                <Banner />
-            </div>
+            <Banner />
             <TextoSimples
                 titulo="Que bom ter chegado aqui "
                 conteudo="A fala e ação são formas que encontramos para trazer cor e sabor a vida, mesmo na relutância em procurar ajuda, mas com a coragem em mãos, são através delas que podemos encontrar novos caminhos e olhar a existência de outra perspectiva e esse processo não ocorrerá sozinho a psicoterapia se encontra como o principal recurso de auxilio."
@@ -23,6 +21,7 @@ export default function Home() {
             <TextoSobre
                 imagem={LisCrespi}
                 titulo="A profissional"
+                color="#69825F"
             />
             <TextoLeft
                 imagem={Minimalismo1}

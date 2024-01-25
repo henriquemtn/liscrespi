@@ -10,6 +10,7 @@ export default function Sobre() {
             <TextoSobre
                 imagem={LisCrespi}
                 titulo="Através da psicoterapia você aprende"
+                color='#FFFFFF'
             />
             <Footer />
         </div>

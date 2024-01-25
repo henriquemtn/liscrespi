@@ -1,15 +1,26 @@
 import FadeInOnScroll from '../scripts/fadeInOnScroll';
+import cone from '../assets/logocone.png';
+import { useNavigate } from 'react-router-dom';
 
 export default function Banner() {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/sobre");
+    }
 
     return (
-        <div id='home' className="bg-[#69825F] w-full md:w-[1150px] h-[417px] flex md:justify-end items-center">
-        <div className='flex flex-col justify-center items-end h-full text-[20px] p-4 md:p-0 md:pr-10'>
-                <div className="w-full md:w-[500px] mr-2 text-right md:pr-10"> 
+        <div id='home' className="bg-[#69825F] w-full h-[717px] flex md:justify-center items-center">
+        <div className='flex justify-between items-center  md:w-[1150px] text-[20px] -92'>
+                <div className="w-[500px] mr-2 text-left md:pr-10"> 
                     <FadeInOnScroll>
-                        <h1 className='text-white   '>“A Psicoterapia propõe levar ao encontro de si mesmo, ao centro da própria vida.”</h1>
-                        <p className='text-white font-light'>Lisandra Crespi</p>
+                        <h1 className='text-white'>“A Psicoterapia propõe levar ao encontro de si mesmo, ao centro da própria vida.”</h1>
+                        <p className='text-white font-light pb-4'>Lisandra Crespi</p>
+                        <button onClick={handleClick} className='p-4 bg-white rounded-md px-16 font-light text-[#69825F]'>Clique Aqui</button>
                     </FadeInOnScroll>
+                </div>
+                <div className='bg-white h-[480px] w-[380px] flex justify-center items-center rounded-t-full'>
+                    <img src={cone} alt="logo" />
                 </div>
             </div>
         </div>
