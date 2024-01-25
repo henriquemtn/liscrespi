@@ -15,8 +15,8 @@ export default function Home() {
             <Navbar />
             <Banner />
             <TextoSimples
-                titulo="Que bom ter chegado aqui "
-                conteudo="A fala e ação são formas que encontramos para trazer cor e sabor a vida, mesmo na relutância em procurar ajuda, mas com a coragem em mãos, são através delas que podemos encontrar novos caminhos e olhar a existência de outra perspectiva e esse processo não ocorrerá sozinho a psicoterapia se encontra como o principal recurso de auxilio."
+                conteudo="Olá! Meu nome é Lisandra Izabel Crespi, sou psicóloga clínica (CRP 12/22576) e presto atendimento online a adolescentes e adultos. Minha prática é norteada pela abordagem psicodrama e adoto recursos de arteterapia como ferramenta auxiliadora no desenvolvimento das potencialidades.
+                Atualmente curso pós-graduação em Psicodrama (LOCUS) e Neuropsicologia (CENSUPEG)"
             />
             <TextoSobre
                 imagem={LisCrespi}
@@ -25,8 +25,8 @@ export default function Home() {
             />
             <TextoLeft
                 imagem={Minimalismo1}
-                titulo="A psicoterapia para além do esperado"
-                conteudo="O processo terapêutico não está voltado apenas ao auxilio de pessoas que possuem um diagnostico psiquiátrico, mas engloba aspectos mais profundos sobre o relacionamento com o eu, como; autoconhecimento, compreensão dos sentimentos, pensamentos e comportamentos, elaboração de vivencias difíceis, ajuda no desenvolvimento de relações saudáveis, melhora na autoestima, encontro dos valores pessoais, ressignificação da própria historia."
+                titulo="Encontrar quem somos através das sessões"
+                conteudo="Meu papel como psicóloga é fornecer um espaço seguro e acolhedor para que possa descobrir as suas potencialidades, recuperar a espontaneidade e criatividade cristalizadas pelas dores, fazendo as pazes consigo e seu processo. Esse momento será seu e a cada sessão se encontrará consigo mesmo (a), estarei disposta a presenciar esse encontro e auxiliar a ter uma vida leve no aqui e agora."
             />
             <TextoRight
                 imagem={Minimalismo2}
