@@ -16,8 +16,8 @@ export default function TextoRight({ titulo, imagem }: CustomProps) {
                         <div className="flex flex-col items-center text-left md:w-1/2">
                             <h1 className="text-[20px] pb-4">{titulo}</h1>
                             <p className="font-light text-[20px] pb-8">
-                                Possibilitar a recuperação da espontaneidade e criatividade presente em cada um, ou seja, o potencial de transformar a própria vida, aprendendo a dar novas respostas através da compreensão dos seus limites, desejos e possibilidades.
-                                Para isso se desenvolver minha clinica é pautada no afeto, ética, escuta ativa e respeitosa, distante de conservas sociais, mas direcionadas a história única de quem me procura.<br /><br />
+                                é fornecer um espaço seguro, ético e acolhedor para que possa descobrir as suas potencialidades, recuperar a espontaneidade, encontrar seus limites fazendo as pazes consigo, vivenciando seu processo único de forma segura. Esse momento será seu e a cada sessão se encontrará consigo mesmo (a), você poderá falar o que for confortável e estarei disposta a presenciar esse encontro. <br /><br />
+
                                 Para agendar sua sessão basta preencher o formulário disponível nesse site e assim que possível terei o prazer de entrar em contato para conversarmos.</p>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIf9is91-01QwOzrGJNrrnupTacoD9TxLNllkJ0UvhQWorVg/viewform" className='p-4 bg-[#69825F] rounded-md px-16 font-light text-white'>AGENDE</a>
                         </div>

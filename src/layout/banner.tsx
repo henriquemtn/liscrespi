@@ -14,7 +14,7 @@ export default function Banner() {
         <div className='flex justify-between items-center  md:w-[1150px] text-[20px] -92'>
                 <div className="w-[500px] mr-2 text-left md:pr-10"> 
                     <FadeInOnScroll>
-                        <h1 className='text-white'>“A Psicoterapia propõe levar ao encontro de si mesmo, ao centro da própria vida.”</h1>
+                        <h1 className='text-white'>“A psicoterapia propõe te levar ao protagonismo da própria história.”</h1>
                         <p className='text-white font-light pb-4'>Lisandra Crespi</p>
                         <button onClick={handleClick} className='p-4 bg-white rounded-md px-16 font-light text-[#69825F]'>Clique Aqui</button>
                     </FadeInOnScroll>

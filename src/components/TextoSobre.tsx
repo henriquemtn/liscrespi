@@ -18,9 +18,9 @@ export default function TextoSobre({ imagem, color }: CustomProps) {
                             alt="imagem"
                         />
                         <div className="flex flex-col items-center text-left md:w-1/2">
-                            <h1 className="text-[20px] pb-4">A psicoterapia para além do esperado</h1>
                             <p className="font-light text-[20px] text-left">
-                            Com o processo terapêutico podemos adquirir autoconhecimento, compreender sentimentos e pensamentos, elaborar situações difíceis, melhorar a autoestima, reencontrar os valores pessoais, ajudar no desenvolvimento de relações saudáveis, adquirir ferramentas para lidar com o diagnostico psiquiátrico, ressignificar a própria história.
+                                Meu nome é Lisandra Izabel Crespi, sou psicóloga clínica (CRP 12/22576) e presto atendimento online a adolescentes e adultos. Minha prática é norteada pela abordagem psicodrama e adoto recursos de arteterapia como ferramenta auxiliadora no desenvolvimento de espontaneidade e criatividade.
+                                Atualmente curso pós-graduação em Psicodrama (LOCUS) e Neuropsicologia (CENSUPEG).
                             </p>
                         </div>
                     </div>

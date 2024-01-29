@@ -15,8 +15,7 @@ export default function Home() {
             <Navbar />
             <Banner />
             <TextoSimples
-                conteudo="Olá! Meu nome é Lisandra Izabel Crespi, sou psicóloga clínica (CRP 12/22576) e presto atendimento online a adolescentes e adultos. Minha prática é norteada pela abordagem psicodrama e adoto recursos de arteterapia como ferramenta auxiliadora no desenvolvimento das potencialidades.
-                Atualmente curso pós-graduação em Psicodrama (LOCUS) e Neuropsicologia (CENSUPEG)"
+                conteudo="Nos percalços da vida percebemos que damos conta até certo momento, precisamos de coragem para procurar ajuda tomando a decisão de nos abrirmos, assim o papel da psicoterapia se faz presente para conquistarmos uma vida leve, espontânea e criativa, nos tornando agente transformador da própria historia."
             />
             <TextoSobre
                 imagem={LisCrespi}
@@ -25,12 +24,12 @@ export default function Home() {
             />
             <TextoLeft
                 imagem={Minimalismo1}
-                titulo="Encontrar quem somos através das sessões"
-                conteudo="Meu papel como psicóloga é fornecer um espaço seguro e acolhedor para que possa descobrir as suas potencialidades, recuperar a espontaneidade e criatividade cristalizadas pelas dores, fazendo as pazes consigo e seu processo. Esse momento será seu e a cada sessão se encontrará consigo mesmo (a), estarei disposta a presenciar esse encontro e auxiliar a ter uma vida leve no aqui e agora."
+                titulo="A psicoterapia para além do esperado"
+                conteudo="Com o processo terapêutico podemos adquirir autoconhecimento, compreender sentimentos e pensamentos, elaborar situações difíceis, melhorar a autoestima, identificar os valores pessoais, desenvolver relações saudáveis, adquirir ferramentas para lidar com o diagnostico psiquiátrico, ressignificar a própria história."
             />
             <TextoRight
                 imagem={Minimalismo2}
-                titulo="Meu desejo como psicóloga"
+                titulo="Meu papel como psicóloga"
             />
             <Footer />
         </div>
