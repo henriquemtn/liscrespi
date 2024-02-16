@@ -14,7 +14,6 @@ export default function Home() {
         <div>
             <Navbar />
             <Banner />
-            <TextoSimples />
             <TextoSobre
                 imagem={LisCrespi}
                 titulo="A profissional"
