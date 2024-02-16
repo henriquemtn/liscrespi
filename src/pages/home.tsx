@@ -1,5 +1,4 @@
 import TextoRight from "../components/TextoRight";
-import TextoSimples from "../components/TextoSimples";
 import Banner from "../layout/banner";
 import Navbar from "../layout/navbar";
 import Minimalismo1 from '../assets/minimalismo1.png'
