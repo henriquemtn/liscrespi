@@ -14,9 +14,7 @@ export default function Home() {
         <div>
             <Navbar />
             <Banner />
-            <TextoSimples
-                conteudo="Nos percalços da vida percebemos que damos conta até certo momento, precisamos de coragem para procurar ajuda tomando a decisão de nos abrirmos, assim o papel da psicoterapia se faz presente para conquistarmos uma vida leve, espontânea e criativa, nos tornando agente transformador da própria historia."
-            />
+            <TextoSimples />
             <TextoSobre
                 imagem={LisCrespi}
                 titulo="A profissional"
