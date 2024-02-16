@@ -7,12 +7,14 @@ import LisCrespi from '../assets/liscrespi.png'
 import TextoLeft from "../components/TextoLeft";
 import TextoSobre from "../components/TextoSobre";
 import Footer from "../layout/footer";
+import TextoSimples from "../components/TextoSimples";
 
 export default function Home() {
     return (
         <div>
             <Navbar />
             <Banner />
+            <TextoSimples />
             <TextoSobre
                 imagem={LisCrespi}
                 titulo="A profissional"

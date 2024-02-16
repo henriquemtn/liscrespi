@@ -15,8 +15,6 @@ export default function Banner() {
                 <div className=" w-full px-4 md:px-0 md:w-[800px] md:mr-2 text-center md:pr-10 md:text-left">
                     <FadeInOnScroll>
                         <h1 className='text-white text-[22px] text-center md:text-left'>Autoconhecimento através da criação</h1>
-                        <p className='text-white text-[18px] py-2 font-light text-center md:text-left'>“Nos percalços da vida percebemos que damos conta até certo momento, precisamos de coragem para procurar
-                            ajuda tomando a decisão de nos abrirmos, assim o papel da psicoterapia se faz presente para conquistarmos uma vida leve, espontânea e criativa, nos tornando agente transformador da própria historia.”</p>
                         <p className='text-white text-center md:text-left font-light pb-4'>Lisandra Crespi</p>
                         <button onClick={handleClick} className='p-4 bg-white rounded-md px-16 font-light text-[#69825F]'>Clique Aqui</button>
                     </FadeInOnScroll>
